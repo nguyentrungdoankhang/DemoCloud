@@ -1,0 +1,165 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: tahoma;
+}
+#main-title{
+	display: inline-block;
+	margin-left: 150px;
+}
+#main-title h1{
+	font-family: 'BallparkWeiner',san-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: rgb(237,54,26);
+}
+#main-title h2{
+	font-family: Dayrom,serif;
+	font-size:1.3em;
+	margin-top: -10px;
+	font-weight: normal;
+	font-style: italic;
+	color:  #0066ff;
+	text-align:left;
+}
+.wrap{
+	width: 980px; 
+	margin: 0 auto; 
+	color: #000;	
+}
+#head{
+	height: 240px;
+}
+#head #dang-nhap{
+	margin-top: -70px;
+	margin-left: 760px;
+	width: 220px;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+	border-bottom-left-radius: 35px;
+}
+#dang-nhap a{
+	text-decoration: none;
+	color: blue;
+}
+#dang-nhap a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*menu*/
+#menu{
+	height: 40px;
+	background-color: #ffff33;
+	padding-left: 15px;
+}
+#menu ul li{
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	
+}
+#menu ul li a{
+	text-decoration: none;
+	padding: 0 15px;
+	color: #000;
+	font-weight: bolder;
+}
+#menu ul li a:hover{
+	text-decoration: underline;
+}
+#menu .tk{
+	line-height: 40px;
+	height: 25px;
+	margin-left: 265px;
+	padding-left: 5px;
+}
+#menu .ts{
+	background-color: black;
+	color: white;
+	width: 70px;
+	height: 25px;
+}
+/*content*/
+#content{
+	height: 985px;
+}
+/*category*/
+#content .left{
+	float: left;
+	width: 200px;
+	height: 280px;
+	margin-top: 15px;
+	border: 1px solid gray;
+	background-color: #333333;
+}
+.left .left-top h3{
+	border-bottom: 1px solid gray;
+	color: #cccc66;
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+}
+.left .left-bot{
+	padding: 20px 20px;
+}
+.left .left-bot a{
+	display: block;
+	text-decoration: none;
+	color: #cccc66;
+	padding-bottom: 35px; 
+}
+.left .left-bot a:hover{
+	font-weight: bold;
+	color: white;
+}
+.left #map-box #map-title {
+	background-color: #333333;
+}
+.left #map-box #map-title h4{
+	border-bottom: 1px solid gray;
+	color: #cccc66;
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+}
+/*SanPham*/
+#content .right{
+	float: left;
+	width: 680px;
+	height: 800px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.right .right-top h3{
+	color: black;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.right .right-bot {
+	margin-top: 20px;
+	height: 350px;
+}
+/*footer*/
+#footer{
+	height: 75px;
+	background-color: #ffff33;
+	margin-top: 25px;
+}
+#footer h3{
+	line-height: 75px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+#footer h4{
+	line-height: 75px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
